@@ -1,0 +1,45 @@
+.row .content {
+	position: absolute;
+	color: white;
+	width: 100vw;
+}
+
+.row {
+	width: 100%;
+	text-align: center;
+}
+
+#gui { background: white; position: absolute; left: 2px; z-index: 10000; }
+
+.positive-box { 
+  float: left;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  clear: both;
+  background-color: red;
+}
+
+.neutral-box { 
+  float: left;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  clear: both;
+  background-color: white;
+}
+
+.negative-box { 
+  float: left;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  clear: both;
+  background-color: blue;
+}
