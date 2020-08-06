@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "dimensions": [5,2,5000],
+    "rotations": [50,50,50],
+    "position": [0,0,0],
+    "properties": {
+      "color": "#283964"
+    }
+  },
+  {
+    "id": 2,
+    "dimensions": [10,200,200],
+    "rotations": [29,12,424],
+    "position": [0,0,0],
+    "properties": {
+      "color": "#283964"
+    }
+  },
+  {
+    "id": 3,
+    "dimensions": [50, 1, 1],
+    "rotations": [142,95,133],
+    "position": [0,0,0],
+    "properties": {
+      "color": "#283964"
+    }
+  },
+  {
+    "id": 3,
+    "dimensions": [6,25,6],
+    "rotations": [72,109,186],
+    "position": [0,0,0],
+    "properties": {
+      "color": "#283964"
+    }
+  },
+  {
+    "id": 4,
+    "dimensions": [7,27,30],
+    "rotations": [174,151,286],
+    "position": [0,0,0],
+    "properties": {
+      "color": "#283964"
+    }
+  },
+  {
+    "id": 5,
+    "dimensions": [510, 1, 1],
+    "rotations": [12,95,33],
+    "position": [0,10,0],
+    "properties": {
+      "color": "#283964"
+    }
+  }, 
+  {
+    "id": 6,
+    "dimensions": [510, 1, 1],
+    "rotations": [112,95,33],
+    "position": [0,0,0],
+    "properties": {
+      "color": "#283964"
+    }
+  }
+]

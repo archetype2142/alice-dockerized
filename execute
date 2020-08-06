@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /home/alice_all/alice-front
+bash /root/.yarn/bin/yarn start &
+cd /home/alice_all/simple-socker 
+bash /usr/bin/node app.js &
