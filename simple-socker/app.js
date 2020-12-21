@@ -5,10 +5,17 @@ const fs = require('fs');
 const WebSocket = require('ws');
 const chokidar = require('chokidar');
 
-const ws = new WebSocket.Server({ port: 5080 });
-var filename = '../alice_container/events/event4047_run226466.json';
-// var filename = '../alice_container/sample.json';
+var filename_args = process.argv.slice(2);
 
+const ws = new WebSocket.Server({ port: 5080 });
+
+var filename = '../alice_container/events/event4047_run226466.json';
+
+if(filename_args[0]) {
+ filename = '../alice_container/events/' + filename_args[0];
+}
+
+console.log("Using file " + filename);
 
 ws.on('connection', function connection(ws) {
   readTextFile(filename, ws);

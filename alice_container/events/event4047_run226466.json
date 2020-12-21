@@ -91,7 +91,8 @@
     "fPolyX" : [3.864206e+00, 3.864206e+00],
     "fPolyY" : [8.506339e+00, 8.506339e+00],
     "fPolyZ" : [4.791975e+00, 4.791975e+00]
-  }, {
+  },
+   {
     "_typename" : "AliMinimalisticTrack",
     "fUniqueID" : 304,
     "fBits" : 33554432,

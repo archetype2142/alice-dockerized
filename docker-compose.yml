@@ -1,0 +1,17 @@
+version: "3.3"  # optional since v1.27.0
+services:
+  alice-front:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "3000:3000"
+      - "80:80"
+    links:
+      - simple_socket
+    command: bash /root/.yarn/bin/yarn start
+  simple_socket:
+    image: all_work_docked_alice-front
+    ports:
+      - "5080:5080"
+    command: node /home/alice_all/simple-socker/app.js
