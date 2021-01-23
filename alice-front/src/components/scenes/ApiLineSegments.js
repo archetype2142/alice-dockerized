@@ -6,7 +6,7 @@ import SpotLight from '../resources/SpotLight'
 import React, { Component } from 'react';
 import '../../styles/scenes/ApiLineSegments.css';
 
-const API = 'http://localhost:3001/structures/';
+const API = 'http://localhost:3006/structures/';
 // const API = 'http://localhost:3000/structures/';
 
 var renderer = new THREE.WebGLRenderer();
@@ -58,13 +58,13 @@ var addSegment = function(linesegments=[], positions=[], rotations=[], color=[])
             rotations[index],
             positions[index], //position, 
             element, //vertices, 
+            0,
             color[index]//color
           )
         )
       });
     }
   }
-
   renderer.render(scene, camera);
   document.getElementById('root').append(renderer.domElement)
   return ( null );
@@ -177,6 +177,7 @@ class ApiLineSegments extends Component {
           this.state.segmentRotations,
           this.state.colors
         );
+        console.log(result);
       }
     );
   }
